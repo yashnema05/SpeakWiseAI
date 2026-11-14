@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "audio_file": "dataset/flawed/extra_silence.wav",
+            "reference_file": "dataset/reference/reference.wav",
+            "flaws": [
+                {
+                    "flaw": "Extra Silence",
+                    "start": 10.547,
+                    "end": 12.047,
+                    "severity": 3
+                }
+            ]
+        },
+        {
+            "audio_file": "dataset/flawed/monotone_speech.wav",
+            "reference_file": "dataset/reference/reference.wav",
+            "flaws": [
+                {
+                    "flaw": "Monotone Speech",
+                    "start": 0.0,
+                    "end": 21.095,
+                    "severity": 3
+                }
+            ]
+        },
+        {
+            "audio_file": "dataset/flawed/abnormal_pacing.wav",
+            "reference_file": "dataset/reference/reference.wav",
+            "flaws": [
+                {
+                    "flaw": "Abnormal Pacing",
+                    "start": 0.0,
+                    "end": 28.125,
+                    "severity": 3
+                }
+            ]
+        }
+    ]
+}

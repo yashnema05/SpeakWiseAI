@@ -1,0 +1,10 @@
+streamlit==1.65.0
+librosa==1.0.0
+numpy==2.5.4
+pandas==3.0.6
+plotly==7.1.0
+scipy==1.18.1
+soundfile==0.14.0
+torch==2.14.1
+torchaudio==2.11.0
+transformers==5.19.0

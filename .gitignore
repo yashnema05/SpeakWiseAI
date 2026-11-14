@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+*.db
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+modules/flaw_detection_backup.py
+dataset/reference/*.ogg
